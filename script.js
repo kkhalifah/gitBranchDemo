@@ -10,3 +10,9 @@ if (i%5 === 0 && i%3 === 0) {
 console.log(i);
   }
 };
+
+function isPal(word) {
+  var ogWord = word;
+  if (ogWord === word.split ('').reverse().join(''))
+  console.log(word);
+}
